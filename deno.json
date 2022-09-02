@@ -1,0 +1,13 @@
+{
+  "fmt": {
+    "options": {
+      "singleQuote": true,
+      "indentWidth": 2,
+      "useTabs": false
+    }
+  },
+  "tasks": {
+    "demo": "deno run --allow-read --allow-write --allow-net demo.ts assets/example.js",
+    "repl": "deno repl --eval-file=main.ts"
+  }
+}
