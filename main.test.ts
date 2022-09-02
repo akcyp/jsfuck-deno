@@ -22,7 +22,6 @@ Deno.test('JSF extras', () => {
   assertEquals(eval(jsf.extras('String')), String);
   assertEquals(eval(jsf.extras('Number')), Number);
   assertEquals(eval(jsf.extras('Function')), Function);
-  console.log(jsf.extras('RangeError'));
   assertInstanceOf(eval(jsf.extras('RangeError')), RangeError);
 });
 
